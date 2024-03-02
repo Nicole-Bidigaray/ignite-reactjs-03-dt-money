@@ -71,6 +71,14 @@
       "category": "Venda",
       "type": "income",
       "createdAt": "2024-03-01T20:58:07.555Z"
+    },
+    {
+      "id": "e651",
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-03-02T00:00:24.595Z"
     }
   ]
 }

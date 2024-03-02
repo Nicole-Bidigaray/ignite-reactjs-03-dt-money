@@ -62,7 +62,7 @@ export function NewTransactionModal() {
       <Overlay />
 
       <Content>
-        <Dialog.Title>Nova transação</Dialog.Title>
+        <Dialog.Title>Nova Transação</Dialog.Title>
 
         <CloseButton>
           <X size={24} />
@@ -75,14 +75,12 @@ export function NewTransactionModal() {
             required
             {...register('description')}
           />
-
           <input
-            type="text"
+            type="number"
             placeholder="Preço"
             required
             {...register('price', { valueAsNumber: true })}
           />
-
           <input
             type="text"
             placeholder="Categoria"
